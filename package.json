@@ -1,18 +1,19 @@
 {
-  "name": "rabbitmq",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "amqplib": "^0.8.0",
-    "chokidar": "^3.5.3",
-    "fs-extra": "^10.0.0",
-    "read-last-lines": "^1.8.0"
-  }
+    "name": "rabbitmq",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./src/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "amqplib": "^0.8.0",
+        "chokidar": "^3.5.3",
+        "fs-extra": "^10.0.0",
+        "read-last-lines": "^1.8.0"
+    }
 }
